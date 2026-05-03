@@ -1942,7 +1942,7 @@ export const questionTopics = [
       },
       {
         "number": 150,
-        "question": "27.8 × 6 + 38.9 × 7- ? = (13)2 + √400",
+        "question": "27.8 × 6 + 38.9 × 7-? =(13)^2 + √400 ",
         "options": [
           "240.1",
           "250.1",
@@ -5062,7 +5062,7 @@ export const questionTopics = [
       },
       {
         "number": 390,
-        "question": "9 3 8 × 7 3 5 × ? = 152",
+        "question": "9 3/8 × 7 3/5 × ? = 15^2",
         "options": [
           "2(2/19)",
           "4(6/19)",
@@ -5075,7 +5075,7 @@ export const questionTopics = [
       },
       {
         "number": 391,
-        "question": "600% of √( 180×81 5 ) × 12 ÷ 3-1 = ?2",
+        "question": "600% of √( 180×81/5 ) × 12 ÷ 3^-1 = ?^2",
         "options": [
           "108",
           "72",
@@ -5088,7 +5088,7 @@ export const questionTopics = [
       },
       {
         "number": 392,
-        "question": "16 2 3 % of (2.8 × 6 + 5.4 × 9) = 10-1 × ?",
+        "question": "16 2/3 % of (2.8 × 6 + 5.4 × 9) = 10^-1×?",
         "options": [
           "10.7",
           "107",
@@ -5101,7 +5101,7 @@ export const questionTopics = [
       },
       {
         "number": 393,
-        "question": "20% of (40 × √? ) = (32)2 + (16)2",
+        "question": "20% of (40 × √? ) = (32)^2 +(16)^2",
         "options": [
           "160",
           "25600",
@@ -5114,7 +5114,7 @@ export const questionTopics = [
       },
       {
         "number": 394,
-        "question": "(? ) 3 2 = 256× (2)8 ÷ (8)5 × 32",
+        "question": "(? ) 3 2 = 256× (2)^8 ÷ (8)^5 × 32",
         "options": [
           "4",
           "16",
@@ -5127,7 +5127,7 @@ export const questionTopics = [
       },
       {
         "number": 395,
-        "question": "23 × 46 ÷ 82 = (2)?-2",
+        "question": "2^3 × 4^6 ÷ 82 = (2)^?-2",
         "options": [
           "7",
           "6",
@@ -5140,7 +5140,7 @@ export const questionTopics = [
       },
       {
         "number": 396,
-        "question": "√1521 √169 × √1444 √361 × (10)2 = √100× ?",
+        "question": "√1521/√169 × √1444/√361 × (10)^2 = √100× ?",
         "options": [
           "40",
           "80",
@@ -5153,7 +5153,7 @@ export const questionTopics = [
       },
       {
         "number": 397,
-        "question": "80% of ? = √250 × 44 + 40% of 8500",
+        "question": "80% of ? = (√250 × 44 + 40% of 8500)",
         "options": [
           "80",
           "120",
@@ -5166,7 +5166,7 @@ export const questionTopics = [
       },
       {
         "number": 398,
-        "question": "640 ? = ((15)3 - 225 × 12) ÷ 33.75",
+        "question": "640/? = ((15)^3 - 225 × 12) ÷ 33.75",
         "options": [
           "18",
           "40",
@@ -5179,7 +5179,7 @@ export const questionTopics = [
       },
       {
         "number": 399,
-        "question": "(? +26)% of 1200+ 375÷ 75 × 4 = 500",
+        "question": "(? +26)% of 1200 + 375÷ 75 × 4 = 500",
         "options": [
           "18",
           "12",
@@ -5192,7 +5192,7 @@ export const questionTopics = [
       },
       {
         "number": 400,
-        "question": "(? )2 - 31 × 7 = √1521+ 12 × 35",
+        "question": "(? )^2 - 31 × 7 = √1521+ 12 × 35",
         "options": [
           "26",
           "38",
@@ -5205,6 +5205,7 @@ export const questionTopics = [
       },
       {
         "number": 401,
+        "question": "(? )% of 350- (19)2 + 28 × 45 = 1032",
         "question": "√1521+ (21)2 - 18 × 5 = 5 × ?",
         "options": [
           "80",
@@ -5218,7 +5219,7 @@ export const questionTopics = [
       },
       {
         "number": 402,
-        "question": "(? )% of 350- (19)2 + 28 × 45 = 1032",
+        "question": "(? )% of 350- (19)^2 + 28 × 45 = 1032",
         "options": [
           "48",
           "38",
@@ -5231,7 +5232,7 @@ export const questionTopics = [
       },
       {
         "number": 403,
-        "question": "√256 2 × (1728) 1 3 = ? × (4096) 1 4",
+        "question": "√256 × (1728)^(1/3) = ? × (4096)^(1/4)",
         "options": [
           "16",
           "18",
@@ -5244,7 +5245,7 @@ export const questionTopics = [
       },
       {
         "number": 404,
-        "question": "5?-2 = (5)5 ÷ (25)3 × (125)2 ÷ 625",
+        "question": "5^-2 = (5)^5 ÷ (25)^3 × (125)^2 ÷ 625",
         "options": [
           "-1",
           "0",
@@ -5257,7 +5258,7 @@ export const questionTopics = [
       },
       {
         "number": 405,
-        "question": "172 + 896+ 122 - 25% of 1100 = ?",
+        "question": "172 + 896 + 122 - 25% of 1100 = ?",
         "options": [
           "1000",
           "1050",
@@ -5270,7 +5271,7 @@ export const questionTopics = [
       },
       {
         "number": 406,
-        "question": "?2 = 512÷ 81 ÷ 72 × 2916",
+        "question": "(? )^2 = 512÷ 81 ÷ 72 × 2916",
         "options": [
           "9",
           "12",
@@ -5283,7 +5284,7 @@ export const questionTopics = [
       },
       {
         "number": 407,
-        "question": "132% of 55 + 685 12 % of 48 = ?2",
+        "question": "132% of 55 + 685/12 % of 48 = ?^2",
         "options": [
           "11",
           "5",
@@ -5296,7 +5297,7 @@ export const questionTopics = [
       },
       {
         "number": 408,
-        "question": "252 -?2 % of 125 = 20",
+        "question": "252 - (? )^2 % of 125 = 20",
         "options": [
           "22",
           "18",
@@ -5309,7 +5310,7 @@ export const questionTopics = [
       },
       {
         "number": 409,
-        "question": "8 4 7 × 16 2 6 - 2 × ? = 324÷ 9 ÷ 2",
+        "question": "8 4/7 × 16 2/6 - 2 × ? = 324 ÷ 9 ÷ 2",
         "options": [
           "122",
           "63",
@@ -5321,8 +5322,8 @@ export const questionTopics = [
         "topic": "Simplification"
       },
       {
-        "number": 410,
-        "question": "102+642÷25 112+92-29×5 = ?",
+        "number": 410, 
+        "question": "10^2+ 64^2 ÷ 2^2/11^2+9^2-29×5 = ? ",
         "options": [
           "7",
           "4",
@@ -5335,7 +5336,7 @@ export const questionTopics = [
       },
       {
         "number": 411,
-        "question": "600÷24×1.8 176÷8+0.5 × 4 = ?",
+        "question": "600÷24×1.8/ 176÷8+0.5 × 4 = ?",
         "options": [
           "16",
           "4",
@@ -5348,7 +5349,7 @@ export const questionTopics = [
       },
       {
         "number": 412,
-        "question": "7.8 + 50% of 64.4 = (7)2 - (? )2",
+        "question": "7.8 + 50% of 64.4 = (7)^2 - (? )^2",
         "options": [
           "3",
           "2",
@@ -5361,7 +5362,7 @@ export const questionTopics = [
       },
       {
         "number": 413,
-        "question": "? % of 125+ (15)2 = (16)2 - 2.5% of 640",
+        "question": "(? )% of 125+ (15)^2 = (16)^2 - 2.5% of 640",
         "options": [
           "6",
           "8",
@@ -5374,7 +5375,7 @@ export const questionTopics = [
       },
       {
         "number": 414,
-        "question": "4900÷ 28 × 444÷ 12 - 6450 = (? )2",
+        "question": "4900÷ 28 × 444÷ 12 - 6450 = (? )^2",
         "options": [
           "6",
           "7",
@@ -5387,7 +5388,7 @@ export const questionTopics = [
       },
       {
         "number": 415,
-        "question": "(4)3+(18)2 72+121-73 =?",
+        "question": "(4)^3+(18)^2 /72+121-73 =?",
         "options": [
           "1",
           "2",
@@ -5400,7 +5401,7 @@ export const questionTopics = [
       },
       {
         "number": 416,
-        "question": "(3) 1 2+ ? = (3√3) × (9√27) × (√243)",
+        "question": "(3)^ 1/2+? = (3√3) × (9√27) × (√243)",
         "options": [
           "6.5",
           "7",
@@ -5413,7 +5414,7 @@ export const questionTopics = [
       },
       {
         "number": 417,
-        "question": "? + 5 7 + 2 5 - 3 4 = 2 2 7 + 5 1 4 + 3 2 5",
+        "question": "? + 5/7 + 2/5 - 3/4 = 2 2/7 + 5 1/4 + 3 2/5",
         "options": [
           "11(4/7)",
           "10(4/7)",
@@ -5426,7 +5427,7 @@ export const questionTopics = [
       },
       {
         "number": 418,
-        "question": "512+ √676+ 9 17 × 4250+ ? = (53)2",
+        "question": "512+ √676+ 9 17 × 4250+ ? = (53)^2",
         "options": [
           "21",
           "-21",
@@ -5439,7 +5440,7 @@ export const questionTopics = [
       },
       {
         "number": 419,
-        "question": "(2500+ 170- √4900) ÷ 25+ ? = (12)2",
+        "question": "(2500+ 170- √4900) ÷ 25+ ? = (12)^2",
         "options": [
           "50",
           "56",
@@ -5452,7 +5453,7 @@ export const questionTopics = [
       },
       {
         "number": 420,
-        "question": "15 2.5 + 133- 157+ √256+ (10)2 = 1176 ?",
+        "question": "15/2.5 + 133- 157+ √256+ (10)^2 = 1176/?",
         "options": [
           "9",
           "8",
@@ -5465,7 +5466,7 @@ export const questionTopics = [
       },
       {
         "number": 421,
-        "question": "40% of 1125+ 2286 6 = 33 1 3 % of 1110+ ?",
+        "question": "40% of 1125+ 2286/6 = 33 1/3 % of 1110+ ?",
         "options": [
           "461",
           "523",
@@ -5478,7 +5479,7 @@ export const questionTopics = [
       },
       {
         "number": 422,
-        "question": "√12.25 × 18 - (? )2 = (6)2 + √4",
+        "question": "√12.25 × 18 - (? )^2 = (6)^2 + √4",
         "options": [
           "7",
           "6",
@@ -5491,7 +5492,7 @@ export const questionTopics = [
       },
       {
         "number": 423,
-        "question": "16 2 3 % of 684÷ 11 1 9 % of 171 = ?",
+        "question": "16 2/3 % of 684÷ 11 1/9 % of 171 = ?",
         "options": [
           "5",
           "8",
@@ -5504,7 +5505,7 @@ export const questionTopics = [
       },
       {
         "number": 424,
-        "question": "0.16×1.25 0.08 + 0.015×150 0.9 = ?",
+        "question": "0.16×1.25/0.08 + 0.015×150/0.9 = ?",
         "options": [
           "3.5",
           "3",
@@ -5517,7 +5518,7 @@ export const questionTopics = [
       },
       {
         "number": 425,
-        "question": "√1521+ 3 × √64-? = 202 + √49",
+        "question": "√1521+ 3 × √64-? = 20^2 + √49",
         "options": [
           "-344",
           "340",
@@ -5530,7 +5531,7 @@ export const questionTopics = [
       },
       {
         "number": 426,
-        "question": "√1225× 18 - (? )2 = 152 + √169",
+        "question": "√1225× 18 - (? )^2 = 15^2 + √169",
         "options": [
           "12√2",
           "14√2",
@@ -5543,7 +5544,7 @@ export const questionTopics = [
       },
       {
         "number": 427,
-        "question": "(1.69)4 ÷ (2197÷ 1000)3 × (0.13 × 10)3 = (1.3)?-2",
+        "question": "(1.69)^4 ÷ (2197÷ 1000)^3 × (0.13 × 10)^3 = (1.3)^(?-2)",
         "options": [
           "2",
           "5",
@@ -5556,7 +5557,7 @@ export const questionTopics = [
       },
       {
         "number": 428,
-        "question": "√31.36 ÷ √0.64 × 252 = ?2 × 36",
+        "question": "√31.36 ÷ √0.64 × 252 = ?^2 × 36",
         "options": [
           "11",
           "7",
@@ -5569,7 +5570,7 @@ export const questionTopics = [
       },
       {
         "number": 429,
-        "question": "√8100× 7 - 100 4 = 452+ ?",
+        "question": "√8100× 7 - 100/4 = 45^2+ ?",
         "options": [
           "1240",
           "1440",
@@ -5582,7 +5583,7 @@ export const questionTopics = [
       },
       {
         "number": 430,
-        "question": "(√5 - √10) 2 + (√2 + 5) 2 =?3- 22",
+        "question": "(√5 - √10) ^2 + (√2 + 5) ^2 =?^3- 22",
         "options": [
           "3",
           "5",
@@ -5608,7 +5609,7 @@ export const questionTopics = [
       },
       {
         "number": 432,
-        "question": "(81)6 × (3)2 (27)7 = (3)?",
+        "question": "(81)^6 × (3)^2/(27)^7 = (3)^?",
         "options": [
           "6",
           "9",
@@ -5673,7 +5674,7 @@ export const questionTopics = [
       },
       {
         "number": 437,
-        "question": "√4900+ 900 15 - 212 = ? ÷ 9",
+        "question": "√4900+ 900/15 - 21^2 = ? ÷ 9",
         "options": [
           "2751",
           "-2794",
@@ -5699,7 +5700,7 @@ export const questionTopics = [
       },
       {
         "number": 439,
-        "question": "√65% of 260+ 15% of 580+ 1022÷ 14 = ?",
+        "question": "(√65% of 260+ 15% of 580)+ 1022÷ 14 = ?",
         "options": [
           "89",
           "329",
@@ -5712,7 +5713,7 @@ export const questionTopics = [
       },
       {
         "number": 440,
-        "question": "√3364- 1164÷ 12 + √42% of 1050 = ?",
+        "question": "√3364 - 1164÷ 12 + √42% of 1050 = ?",
         "options": [
           "-11",
           "-18",
@@ -5725,7 +5726,7 @@ export const questionTopics = [
       },
       {
         "number": 441,
-        "question": "√58% of 1450- 16% of 650+ √7396= ?",
+        "question": "(√58% of 1450 )- 16% of 650+ √7396= ?",
         "options": [
           "18",
           "27",
@@ -5777,7 +5778,7 @@ export const questionTopics = [
       },
       {
         "number": 445,
-        "question": "45% of 2020- 3 7 × 1092- 15% of 420 = ?",
+        "question": "45% of 2020- 3/7 × 1092- 15% of 420 = ?",
         "options": [
           "326",
           "147",
@@ -5790,7 +5791,7 @@ export const questionTopics = [
       },
       {
         "number": 446,
-        "question": "15% of 920- 26% of 550+ 408 17 = ?",
+        "question": "15% of 920- 26% of 550+ 408/17 = ?",
         "options": [
           "19",
           "25",
@@ -5829,7 +5830,7 @@ export const questionTopics = [
       },
       {
         "number": 449,
-        "question": "40% of 150- 10% of 50 = √? × 200 20",
+        "question": "40% of 150- 10% of 50 = √? × 200/20",
         "options": [
           "25",
           "30.25",
@@ -5842,7 +5843,7 @@ export const questionTopics = [
       },
       {
         "number": 450,
-        "question": "√12321+ 15 × √576-?2 = 142 + √529",
+        "question": "√12321+ 15 × √576-?^2 = 14^2 + √529",
         "options": [
           "3√7",
           "2√3",
@@ -5855,7 +5856,7 @@ export const questionTopics = [
       },
       {
         "number": 451,
-        "question": "29 32 × 8192+ √15129+ 722 = ? +5000",
+        "question": "29/32 × 8192+ √15129+ 72^2 = ? +5000",
         "options": [
           "7730",
           "7652",
@@ -5868,7 +5869,7 @@ export const questionTopics = [
       },
       {
         "number": 452,
-        "question": "12375 25 + √9409- 1722+ ? = 2500÷ 4",
+        "question": "12375/25 + √9409- 172^2+ ? = 2500÷ 4",
         "options": [
           "29663",
           "29617",
@@ -5881,7 +5882,7 @@ export const questionTopics = [
       },
       {
         "number": 453,
-        "question": "√484+ 7 × √256 + (? )2 = 132 + √121",
+        "question": "√484+ 7 × √256 + (? )^2 = 13^2 + √121",
         "options": [
           "√46",
           "√44",
@@ -5894,7 +5895,7 @@ export const questionTopics = [
       },
       {
         "number": 454,
-        "question": "8√8 × 83 ÷ 8 5 2 = 2?",
+        "question": "8√8 × 8^3 ÷ 8^5 × 2 = 2^?",
         "options": [
           "12",
           "6",
@@ -5907,7 +5908,7 @@ export const questionTopics = [
       },
       {
         "number": 455,
-        "question": "30% of ( 2 7) of ( 2 9) of ( 2 5) of 9450= ?",
+        "question": "30% of ( 2/7) of ( 2/9) of ( 2/5) of 9450= ?",
         "options": [
           "52",
           "66",
@@ -5920,7 +5921,7 @@ export const questionTopics = [
       },
       {
         "number": 456,
-        "question": "854×854×854-276×276×276 854×854+854×276+276×276 =?",
+        "question": "854×854×854-276×276×276/854×854+854×276+276×276 =?",
         "options": [
           "1130",
           "578",
@@ -5933,7 +5934,7 @@ export const questionTopics = [
       },
       {
         "number": 457,
-        "question": "(23)3 × (22)2 × (82) 3 2 (22)6 = (4)?",
+        "question": "(2^3)^3 × (2^2)^2 × (8^2)^ 3/2 /(2^2)^6 = (4)^?",
         "options": [
           "8",
           "10",
@@ -5946,7 +5947,7 @@ export const questionTopics = [
       },
       {
         "number": 458,
-        "question": "√12167 3 × √274625 3 × √250047 3 = ?",
+        "question": "∛12167  × ∛274625  × ∛250047  = ?",
         "options": [
           "98956",
           "78695",
@@ -5959,7 +5960,7 @@ export const questionTopics = [
       },
       {
         "number": 459,
-        "question": "√9261 3 × √474552 3 = ? +89",
+        "question": "∛9261  × ∛474552  = ? +89",
         "options": [
           "1654",
           "1549",
@@ -5972,7 +5973,7 @@ export const questionTopics = [
       },
       {
         "number": 460,
-        "question": "√3249+ (75)2 + √? = 5745",
+        "question": "√3249+ (75)² + √? = 5745",
         "options": [
           "3721",
           "4096",
@@ -6193,7 +6194,7 @@ export const questionTopics = [
       },
       {
         "number": 477,
-        "question": "(84 ÷ 7 + 1.6 ÷ ? ) = (√4 3 ) 3×5÷2",
+        "question": "(84 ÷ 7 + 1.6 ÷ ? ) = (∛4 )^3×5÷2",
         "options": [
           "0.4",
           "2",
@@ -6206,7 +6207,7 @@ export const questionTopics = [
       },
       {
         "number": 478,
-        "question": "(4698- 3625- 857) = ?3- 42 - √7225",
+        "question": "(4698- 3625- 857) = ?^3- 42 - √7225",
         "options": [
           "49",
           "14",
@@ -6219,7 +6220,7 @@ export const questionTopics = [
       },
       {
         "number": 479,
-        "question": "[ 12% of 27300 13% of 42 ] + [ 11% of 58500 13% of 45 ] = ?",
+        "question": "[ 12% of 27300/13% of 42 ] + [ 11% of 58500/13% of 45 ] = ?",
         "options": [
           "61100",
           "71000",
@@ -6297,7 +6298,7 @@ export const questionTopics = [
       },
       {
         "number": 485,
-        "question": "√(81% of 2500) + (1/5) × (√1849 - √1089) - 182 ÷ 12 = ?",
+        "question": "√(81% of 2500) + (1/5) × (√1849 - √1089) - 18^2 ÷ 12 = ?",
         "options": [
           "18",
           "20",
@@ -6375,7 +6376,7 @@ export const questionTopics = [
       },
       {
         "number": 491,
-        "question": "{√(6.25% of 25600) + √(3.24% of 10000)} × 2 - 182 ÷ 6 = ?",
+        "question": "{√(6.25% of 25600) + √(3.24% of 10000)} × 2 - 18^2 ÷ 6 = ?",
         "options": [
           "58",
           "64",
