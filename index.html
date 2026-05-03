@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TestSprint</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="topbar">
+        <div>
+          <p class="eyebrow">Simple Test Series App</p>
+          <h1>TestSprint</h1>
+        </div>
+        <div id="userPanel" class="user-panel" hidden>
+          <span id="signedInName"></span>
+          <button id="logoutButton" class="ghost-button" type="button">Logout</button>
+          <button id="topBackButton" class="ghost-button" type="button" hidden>Back</button>
+          <span id="timerText" class="timer" hidden>45:00</span>
+          <button id="pauseButton" class="icon-button" type="button" hidden aria-label="Pause test">II</button>
+        </div>
+      </section>
+
+      <section id="loginScreen" class="screen active">
+        <form id="loginForm" class="login-card">
+          <p class="eyebrow">Sign In</p>
+          <h2>Enter your user ID and password to start.</h2>
+          <label for="userId">User ID</label>
+          <input id="userId" name="userId" type="text" autocomplete="username" required />
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required />
+          <p id="loginError" class="form-error" hidden>Access denied. Please enter a valid user ID and password.</p>
+          <button class="primary-button" type="submit">Sign In</button>
+        </form>
+      </section>
+
+      <section id="startScreen" class="screen">
+        <div class="intro">
+          <h2>Choose a test and begin.</h2>
+          <p>Practice a short quiz, get your score instantly, and review the correct answers.</p>
+        </div>
+        <div id="testList" class="test-grid"></div>
+      </section>
+
+      <section id="quizScreen" class="screen">
+        <div class="quiz-header">
+          <div>
+            <p id="testName" class="eyebrow"></p>
+            <h2 id="questionTitle"></h2>
+          </div>
+          <div class="header-actions">
+            <button id="errorButton" class="secondary-button error-button" type="button" title="Report an error for this question">!</button>
+            <div class="progress">
+              <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="quiz-layout">
+          <div class="question-panel">
+            <div id="pauseNotice" class="pause-notice" hidden>Test paused. Resume when you are ready.</div>
+            <div id="answers" class="answers"></div>
+            <div class="actions">
+              <button id="previousButton" class="secondary-button" type="button">Previous Q</button>
+              <button id="clearButton" class="secondary-button" type="button">Clear Response</button>
+              <button id="markButton" class="secondary-button" type="button">Mark</button>
+              <button id="nextButton" class="primary-button" type="button">Next</button>
+            </div>
+            <p id="errorNotice" class="form-error question-error" hidden></p>
+          </div>
+          <button id="showPaletteButton" class="palette-show-button" type="button" hidden>Show Questions</button>
+          <aside class="palette-panel">
+            <div class="palette-header">
+              <p class="eyebrow">Questions</p>
+              <button id="hidePaletteButton" class="secondary-button compact-button" type="button">Hide</button>
+            </div>
+            <div class="palette-stats">
+              <div class="stat-chip total" title="Total questions"><strong id="totalCount">0</strong></div>
+              <div class="stat-chip attempted" title="Attempted questions"><strong id="attemptedCount">0</strong></div>
+              <div class="stat-chip not-attempted" title="Unattempted questions"><strong id="notAttemptedCount">0</strong></div>
+              <div class="stat-chip marked" title="Marked questions"><strong id="markedCount">0</strong></div>
+            </div>
+            <button id="submitPaletteButton" class="primary-button" type="button">Submit Test</button>
+            <div id="questionPalette" class="question-palette"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="resultScreen" class="screen">
+        <div class="result-card">
+          <p class="eyebrow">Result</p>
+          <h2 id="scoreText"></h2>
+          <p id="scoreMessage"></p>
+          <button id="reviewButton" class="primary-button" type="button">Review Answers</button>
+        </div>
+      </section>
+
+      <section id="reviewScreen" class="screen">
+        <div class="review-header">
+          <div>
+            <p class="eyebrow">Review</p>
+            <h2>Answer Key</h2>
+            <p id="reviewSummary" class="review-summary"></p>
+          </div>
+          <button id="homeButton" class="secondary-button" type="button">Back to Tests</button>
+        </div>
+        <div id="reviewList" class="review-list"></div>
+      </section>
+    </main>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
