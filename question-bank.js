@@ -48515,10 +48515,10 @@ export const questionTopics = [
       {
         "number": 58,
         "topic": "Percentage",
-        "question": "In 2 kg mixture of copper and aluminium, 30% is copper. How much aluminium powder should be added to the mixture so that the quantity of copper becomes 20%? तांबे और एल् यूमीनन यम के 2 फकलो लमश्रण में 30% तांबा है। लमश्रण में फकतना एल् युलमनन यम पाउिर लमलाना चाहहए फक तांबे की मात्रा 20% हो जाए?",
+        "question": "In 2 kg mixture of copper and aluminium, 30% is copper. How much aluminium powder should be added to the mixture so that the quantity of copper becomes 20%? तांबे और एल्यूमिनियम के 2 किलो मिश्रण में 30% तांबा है। मिश्रण में कितना एल्यूमिनियम पाउडर मिलाना चाहिए कि तांबे की मात्रा 20% हो जाए?",
         "options": [
           "900 gms / ग्राम",
-          "800 gms / ग्राम 31",
+          "800 gms / ग्राम",
           "1000 gms / ग्राम",
           "1200 gms / ग्राम"
         ],

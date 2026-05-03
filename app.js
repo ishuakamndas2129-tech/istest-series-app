@@ -246,14 +246,21 @@ function startTest(testId) {
   startTimer();
 }
 
+function countWords(text) {
+  return text.trim().split(/\s+/).filter(word => word.length > 0).length;
+}
+
 function renderQuestion() {
   const question = selectedTest.questions[currentQuestionIndex];
   const questionNumber = currentQuestionIndex + 1;
   const progress = (questionNumber / selectedTest.questions.length) * 100;
   const hasError = errorQuestions[currentQuestionIndex];
+  const wordCount = countWords(question.question);
+  const isLongQuestion = wordCount > 25;
 
   testName.textContent = selectedTest.title;
   questionTitle.innerHTML = sanitizeHtml(question.question);
+  questionTitle.classList.toggle("long-question", isLongQuestion);
   progressBar.style.width = `${progress}%`;
   answers.innerHTML = question.options.map((option, index) => {
     const selectedClass = selectedAnswers[currentQuestionIndex] === index ? "selected" : "";
