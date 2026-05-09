@@ -1,10 +1,26 @@
 import { questionTopics as importedQuestionTopics, starterTests } from './question-bank.js';
-const questionTopics = importedQuestionTopics.length > 0 ? importedQuestionTopics : [
-  { id: "simplification", title: "Simplification", questions: [] },
-];
+
+const questionBank = window.questionBank;
+const questionBankTopics = questionBank?.topics?.length ? questionBank.topics : [];
+const questionTopics = [...importedQuestionTopics, ...questionBankTopics].length > 0
+  ? [...importedQuestionTopics, ...questionBankTopics]
+  : [{ id: "simplification", title: "Simplification", questions: [] }];
+
 const pdfTests = [];
 
 questionTopics.forEach((topic) => {
+  if (topic.sources?.length) {
+    topic.sources.forEach((source) => {
+      pdfTests.push({
+        id: source.id,
+        title: source.title,
+        description: `Topic: ${topic.title}`,
+        questions: source.questions,
+      });
+    });
+    return;
+  }
+
   const setSize = topic.setSize || 50;
 
   for (let index = 0; index < topic.questions.length; index += setSize) {
