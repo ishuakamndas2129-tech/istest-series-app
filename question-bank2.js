@@ -1,4 +1,4 @@
-window.questionBank = {
+export const questionBank = {
   "topics": [
     {
       "id": "average",

@@ -1,6 +1,6 @@
 import { questionTopics as importedQuestionTopics, starterTests } from './question-bank.js';
-import { questionTopics as importedQuestionTopics2 } from './question-bank2.js';
-const questionBank = window.questionBank;
+import { questionBank } from './question-bank2.js';
+
 const questionBankTopics = questionBank?.topics?.length ? questionBank.topics : [];
 const questionTopics = [...importedQuestionTopics, ...questionBankTopics].length > 0
   ? [...importedQuestionTopics, ...questionBankTopics]
